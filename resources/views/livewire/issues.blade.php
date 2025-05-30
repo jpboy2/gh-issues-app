@@ -1,10 +1,10 @@
-<x-layouts.app>
+
     <div>
     <!-- Navbar -->
     <header class="bg-black border-b border-gray-700">
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center gap-2">
-                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="w-9 h-9"
+                <img src="/images/github-mark-white.png" class="w-9 h-9"
                     alt="GitHub Logo" />
                 <h1 class="text-xl font-bold text-white">GitHub Issues</h1>
             </div>
@@ -27,7 +27,6 @@
     <!-- Main content -->
     <main class="max-w-6xl mx-auto px-6 py-10">
         <livewire:issues-list />
-        <livewire:issue-detail />
     </main>
 
     <!-- Footer -->
@@ -35,4 +34,4 @@
         &copy; {{ date('Y') }} GitHub Issues App — Built with ❤️ using Laravel & Livewire
     </footer>
     </div>
-</x-layouts.app>
+
